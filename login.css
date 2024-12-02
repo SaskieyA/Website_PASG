@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: 'Albert Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    padding: 20px 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+header .close {
+    cursor: pointer;
+}
+
+.close {
+    margin-bottom: auto;
+}
+
+/* Container Styling */
+.container {
+    background-color: #001F3F;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #001F3F;
+}
+
+label {
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+   
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b0c4de;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Input Focus Effect */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(28, 61, 88, 0.5);
+}
+
+/* Button Styling */
+button {
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #001F3F;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: rgb(91, 91, 94); /* Warna abu lebih cerah saat hover */
+}
+
+/* Logo Styling */
+/* Heading Styling */
+h1 {
+    position: relative;
+    color: #ffffff; /* Warna teks */
+    text-align: center;
+}
+
+/* Keyframe Animationn */
+@keyframes animate {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    10%, 90% {
+        width: 40%;
+    }
+}
